@@ -1,0 +1,20 @@
+.services_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 4rem;
+}
+
+.card.service {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.service_icon {
+    background: var(--color-primary);
+    padding: 0.6rem;
+    border-radius: var(--border-radius-3);
+    font-size: 1.5rem;
+    color: var(--color-white);
+    transition: var(--transition);
+}
