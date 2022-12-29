@@ -1,6 +1,6 @@
 header {
     margin-top: 5 rem;
-    height: calc(100vh - 5rem);
+    height: calc(80vh - 5rem);
     display: grid;
     place-items: center;
     background: var(--color-white);
@@ -44,12 +44,13 @@ header {
 }
 
 .header_socials a {
-    width: 1.8rem;
+    width: 3rem;
     aspect-ratio: 1/1;
     background: var(--color-light);
     color: var(--color-black);
     display: grid;
     place-items: center;
+    font-size: 2rem;
     border-radius: var(--border-radius-3);
 }
 

@@ -1,4 +1,3 @@
-
 import Card from '../../components/Card'
 import data from './data'
 import './services.css'
@@ -6,7 +5,7 @@ import './services.css'
 const Services = () => {
   return (
     <section id="services">
-    <h2>Services</h2>
+    <h2>My Services</h2>
     <p>I give you the best in all the services below</p>
     <div className="container services_container">
       {

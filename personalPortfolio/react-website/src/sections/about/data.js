@@ -1,11 +1,14 @@
-import {AiFillClockCircle} from 'react-icons/ai'
-import {GiBookshelf} from 'react-icons/gi'
-import {BsPeopleFill} from 'react-icons/bs'
+import {FaAward} from 'react-icons/fa'
+import {TbBooks} from 'react-icons/tb'
+import {BiHappyHeartEyes} from 'react-icons/bi'
+
 
 const data = [
-    {id: 1, icon: <AiFillClockCircle/>, title: 'Experience', desc: '5+ Years Working'},
-    {id: 2, icon: <GiBookshelf/>, title: 'Projects', desc: '10+ Completed'},
-    {id: 3, icon: <BsPeopleFill/>, title: 'Clients', desc: '15+ happy clients'},
-]
+    {id: 1, icon: <FaAward/>, title: 'Experience', desc: '5+ Years Working'},
+    {id: 2, icon: <TbBooks/>, title: 'Projects', desc: '10+ Completed'},
+    {id: 3, icon: <BiHappyHeartEyes/>, title: 'Clients', desc: '10+ happy clients'}
+    ]
 
-export default data
+
+
+    export default data;

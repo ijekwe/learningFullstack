@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-:root {
+ :root {
     --primary-hue: 270;
     --black-lightness: 15%;
     --dark-lightness: 44%;
@@ -74,7 +74,7 @@ section > p {
 
 /*  GENERAL SECTION STYLES */
 a {
-    color: var(--color-white);
+    /*color: var(--color-white);*/
     transition: var(--transition);
 }
 
@@ -211,4 +211,4 @@ img {
   section > p {
       width: var(--container-width-md);
   }
-}
+} 

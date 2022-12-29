@@ -30,6 +30,10 @@ nav {
     gap: 3.5rem;
 }
 
+.nav_menu a {
+    color: white;
+}
+
 #theme_icon {
     background: transparent;
     color: white;
