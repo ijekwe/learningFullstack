@@ -1,19 +1,21 @@
-import {Fragment} from 'react'
+import { Fragment } from "react"
 import ReactDOM from 'react-dom'
-import Card from './Card'
-import {useModalContext} from '../context/modal-context'
+import Card from "./Card"
+import { useModalContext } from "../context/modal-context"
 import './modal.css'
 
 
+
 const Modal = ({className, children}) => {
-      const {showModal} = useModalContext();
+    const {showModal, closeModalHandler} = useModalContext();
+
   return (
     <Fragment>
         {
-          showModal && ReactDOM.createPortal(<>
-            <section id="backdrop"></section>
-            <Card className={className}>blahh blah blahhhh</Card>
-            </>, document.querySelector('#overlays'))
+            showModal && ReactDOM.createPortal(<>
+                <section id="backdrop" onClick={closeModalHandler}></section>
+                <Card className={className}>{children}</Card>
+                </>, document.querySelector('#overlays'))
         }
     </Fragment>
   )

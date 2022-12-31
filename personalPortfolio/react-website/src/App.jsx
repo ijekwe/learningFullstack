@@ -8,7 +8,7 @@ import FAQs from './sections/faqs/FAQs';
 import Contact from './sections/contact/Contact';
 import Footer from './sections/footer/Footer';
 import FloatingNav from './sections/floating-nav/FloatingNav';
-import Modal from './components/Modal';
+import Theme from './theme/Theme';
 
 
 
@@ -21,11 +21,11 @@ const App = () => {
         <Services/>
         <Portfolio/>
         <Testimonials/>
-        <FAQs/>
+        <FAQs/>  
         <Contact/>
         <Footer/>
-        <Modal/>
-        {/*<FloatingNav/>*/}
+        <Theme/>
+        {/* <FloatingNav/>*/} 
     </main>
   )
   
