@@ -7,7 +7,7 @@ import './theme.css'
 const Theme = () => {
   return (
     <Modal className="theme__modal">
-        <h3>Choose Your Theme</h3>
+        <h3>Customize Your Theme</h3>
         <small>Change the primary and background color to your preference.</small>
         <div className="theme__primary-wrapper">
             <h5>Primary Color</h5>

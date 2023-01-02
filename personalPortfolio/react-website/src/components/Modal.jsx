@@ -6,10 +6,11 @@ import './modal.css'
 
 
 
+
 const Modal = ({className, children}) => {
     const {showModal, closeModalHandler} = useModalContext();
 
-  return (
+   return (
     <Fragment>
         {
             showModal && ReactDOM.createPortal(<>
