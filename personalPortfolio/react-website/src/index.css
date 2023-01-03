@@ -44,7 +44,6 @@ body {
   font-size: 0.9rem;
 }
 
-
 /* THEME change using react */
 main.color-1 {
     --primary-hue: 270;
@@ -65,10 +64,21 @@ main.color-6 {
     --primary-hue: 55;
 }
 
-main {
-    --color-primary: hsl(var(--primary-hue), 89%, 41%);
+main.bg-2 {
+    --black-lightness: 96%;
+    --dark-lightness: 60%;
+    --light-lightness: 12%;
+    --white-lightness: 6%;
+    --color-white: hsl(0, 5%, var(--white-lightness));
+    --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
+    --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
+    --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
 }
 
+main {
+    color: var(--color-dark);
+    --color-primary: hsl(var(--primary-hue), 89%, 41%);
+}
 
 
 /*  GENERAL CONTAINER CLASS */
