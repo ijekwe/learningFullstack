@@ -1,4 +1,4 @@
-import {links, socials} from './data'
+import {links} from './data'
 import './footer.css'
 
 const Footer = () => {
@@ -10,11 +10,6 @@ const Footer = () => {
             links.map(fLink => <li key={fLink.id}><a href={fLink.link}>{fLink.title}</a></li>)
           }
         </ul>
-        <div className="footer_socials">
-        {
-          socials.map(social => <a key={social.id} href={social.link} target="_blank" rel="noopener noreferrer">{social.icon}</a>)
-        }
-        </div>
       </div>
       <div className="footer_copyright">
         <small>Iheanyi Ekweghariri &copy; All Rights Reserved.</small>

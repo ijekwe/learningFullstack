@@ -1,6 +1,6 @@
 header {
     margin-top: 5 rem;
-    height: calc(80vh - 5rem);
+    height: calc(90vh - 5rem);
     display: grid;
     place-items: center;
     background: var(--color-white);
@@ -25,7 +25,7 @@ header {
 .header_container p {
     width: 35rem;
     text-align: center;
-    margin: 0.6rem 0 2rem;
+    margin:1rem 0 2rem;
 }
 
 .header_cta {
@@ -44,7 +44,7 @@ header {
 }
 
 .header_socials a {
-    width: 3rem;
+    width: 2rem;
     aspect-ratio: 1/1;
     background: var(--color-light);
     color: var(--color-black);

@@ -1,6 +1,6 @@
-import React from 'react'
 import Navbar from './sections/navbar/Navbar';
-import Header from './sections/header/Header';import About from './sections/about/About';
+import Header from './sections/header/Header';
+import About from './sections/about/About';
 import Services from './sections/services/Services';
 import Portfolio from './sections/portfolio/Portfolio';
 import Testimonials from './sections/testimonials/Testimonials';
@@ -47,22 +47,22 @@ const App = () => {
   }, [siteYPostion])
 
   
-  return ( 
-    <main className={`${themeState.primary} ${themeState.background}`}>
+
+  return (
+    <main className={`${themeState.primary} ${themeState.background}`} ref={mainRef}>
         <Navbar/>
         <Header/>
         <About/>
         <Services/>
         <Portfolio/>
-        <Testimonials/>
-        <FAQs/>  
+        {/*<Testimonials/>
+        <FAQs/>*/}
         <Contact/>
         <Footer/>
         <Theme/>
         {showFloatingNav && <FloatingNav/>}
     </main>
   )
-  
 }
 
 export default App
