@@ -6,17 +6,17 @@ import {AiFillAppstore} from 'react-icons/ai'
 
 const data = [
     {
-        id: 1, icon: <AiFillAppstore/>, title: 'Business Development', desc: "I help companies grow their revenue by identifying and pursuing new business opportunities. Whether it's through partnerships, strategic alliances, or entering new markets, I have a proven track record of success in driving growth."
+        id: 1, icon: <AiFillAppstore/>, title: 'Business Development', desc: "I provide business plans for companies to increase revenue by identifying and pursuing new business opportunities such as partnerships, strategic alliances, and entering new markets. I have a successful track record of driving growth."
     },
 
     {
-        id: 2, icon: <RiReactjsLine/>, title: 'Frontend Development', desc: "I specialize in creating intuitive and visually appealing user interfaces for websites and web applications. My expertise lies in HTML, CSS, and JavaScript, and I have a strong foundation in responsive design principles."
+        id: 2, icon: <RiReactjsLine/>, title: 'Front End Development', desc: "I specialize in creating intuitive and visually appealing user interfaces for websites and web applications. My expertise lies in HTML, CSS, and JavaScript, and I have a strong foundation in responsive design principles."
     },
     {
-        id: 3, icon: <SiShopify/>, title: 'Shopify', desc: "I help businesses of all sizes leverage the power of Shopify to sell their products online and grow their e-commerce ventures. From setting up a new store to optimizing an existing one, I have the skills and expertise to help businesses succeed on the Shopify platform. Whether you are just starting out or looking to take your online sales to the next level, I'd love to work with you to achieve your goals."
+        id: 3, icon: <SiShopify/>, title: 'Shopify', desc: "With my expertise in Shopify, I am able to help businesses increase online sales and improve their e-commerce ventures. I offer services including setting up new stores and optimizing existing ones. "
     },
     {
-        id: 4, icon: <SiAdobexd/>, title: 'UI/UX Design', desc: " My goal is to create seamless and enjoyable experiences for users by carefully considering the overall layout, visual design, and usability of a product. I have a strong foundation in design principles and user-centered design methodologies, and I am skilled in a variety of design tools such as Adobe Creative Suite. I'd love the opportunity to work with you to bring your vision to life and create a product that users will love"
+        id: 4, icon: <SiAdobexd/>, title: 'UI/UX Design', desc: " Using Adobe Creative Suite, I am able to design user-friendly products and I am skilled in layout, visual design, and usability. I have experience with design tools and principles. I look forward to helping you create a successful product"
     }
 ]
 

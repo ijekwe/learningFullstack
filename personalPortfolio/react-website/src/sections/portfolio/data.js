@@ -10,12 +10,7 @@ const data = [
         ●   Designed end to end Agile/Scrum methodology for technology projects and worked with internal stakeholders and customers to incorporate feedback into application.
         <br/>
         <br/> 
-        ●   Created insightful user journey maps using Figma based on defined requirements for customer funded business models.
-        <br/>
-        <br/> 
-        ●   Researched market opportunity and defined customer segmentation and value proposition, as well as the pricing, licensing, and marketing and sales content.<br/>
-        <br/> 
-        ●   Developed lean business cases to select a client’s authentication level based on their fraud detection and payment systems. 
+        ●   Researched market opportunity and defined customer segmentation and value proposition, as well as the pricing, licensing, and marketing and sales content.
         </p>,
     },
     {
@@ -29,30 +24,15 @@ const data = [
         <br/>
         <br/>
         ●	Assessed overall technology needs, devised methodologies for data infrastructure, automation, and compliance. Managed technical specifications including flows and documentation.
-        <br/>
-        <br/>
-        ●	Created detailed technical and user documentation, deployed new software through (monthly/quarterly) product releases, and managed issue resolution.
-        <br/>
-        <br/>
-        ●	Identified client training needs, created training plans, developed training materials and conducted training sessions that drives system adoption.
         </p>
     },
     {
         id: 3, 
-        title: "Mobile Applicaton Developer @ Samsung Electronics of America",
+        title: "Technical Business Analyst II (cont'd) @ Samsung Electronics of America",
         desc: <p>
-        ●   Promoted after 4 months from Technical BA to Mobile Application Developer due to technical knowledge and background, adding the responsibilities below:
-        <br/>
-        <br/>
-        ●	Identified and debugged code, provided research support and business expertise to the engineering team.
-        <br/>
-        <br/>
         ●	Designed and developed LMS mobile application with 3rd party software integrations as a web team liaison for all inter-departmental and customer facing portals.
         <br/>
         <br/> 
-        ●	Expanded features, refined code to upload content, and drastically improved product knowledge of sales team.
-        <br/>
-        <br/>
         ●	Managed production support process. Monitored the concurrent requests, call/ticket handling and production support.
         <br/>
         <br/>
@@ -76,9 +56,6 @@ const data = [
         <br/>
         <br/>
         ●	Facilitated project meetings and global cross-functional teams in solving technical problems related to iOS/Android applications and user experience using JIRA Software for timeline management, issue tracking and security incident reporting. 
-        <br/>
-        <br/>
-        ●	Leveraged understanding of business process lifecycle and technology to evaluate the impact of new project requirements ensure integrity throughout the entire process.
         </p>
     }
 ]

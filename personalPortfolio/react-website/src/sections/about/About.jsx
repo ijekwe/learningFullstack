@@ -29,9 +29,18 @@ const About = () => {
                     }              
                 </div>
         
-                <p>My professional experience includes product management, designing, and crafting code for mobile applications as well as e-commerce web development, and then testing the resulting code to meet client needs. I have extensive experience working in a collaborative and cross - functional environment and presenting status updates to whomever may be involved in the project: developers, quality assurance, project managers, etc…</p> 
-                
-                <p>I took part in the design and development of the Samsung Elite application for Samsung which connected with customer representatives to assist in knowledge of the Samsung products. Throughout the process, I conducted a number of sprints for the completion of the project and for a successful launch, I wrote test cases for features and performed multiple rounds of testing with quality assurance.</p> 
+                <p>
+                My professional experience includes product management, product design, and providing data-driven decisions to improve products and processes.
+                <br/>
+                <br/>
+                I have extensive experience working in a collaborative and cross - functional environment and presenting status updates to: developers, quality assurance, and project managers.
+                <br/>
+                <br/>
+                Assisted in the design and development of the Samsung Elite application for Samsung which included implementing a feature that established customer representatives the ability of providing consumers with knowledge of Samsung products.
+                <br/>
+                <br/>
+                Successfully completed the project through a series of sprints. I wrote test cases and performed multiple rounds of testing to ensure quality, efficieny and functionality.
+                </p>
                 <a href={CV} download className='btn primary'>Download CV <AiOutlineCloudDownload/></a>
             </div>
         </div>

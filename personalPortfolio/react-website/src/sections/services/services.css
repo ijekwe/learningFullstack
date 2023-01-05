@@ -37,13 +37,14 @@
 
 
 /* MEDIA QUERIES (phones) */
-@media screen and (max-width: 500px) {
-  .services__container {
+@media screen and (max-width: 600px) {
+
+  .services_container {
       grid-template-columns: 1fr;
       gap: 1.2rem;
   }
 
   .card.service {
-      gap: 1.2rem;
+      gap: 1rem;
   }
 }
